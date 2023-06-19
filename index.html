@@ -5,20 +5,23 @@
 <body>
   <p>
     <h>
-      Please try our chatbot by clicking the blue button on the bottom right
+      Please try our chatbot prototype by clicking the icon in the bottom right. :)
     </h>
   </p>
   
-  <script>
-    (function(){var js,fs,d=document,id="tars-widget-script",b="https://tars-file-upload.s3.amazonaws.com/bulb/";
-    if(!d.getElementById(id))
-    {js=d.createElement("script");
-     js.id=id;js.type="text/javascript";
-     js.src=b+"js/widget.js";
-     fs=d.getElementsByTagName("script")[0];
-     fs.parentNode.insertBefore(js,fs)}})();
-    window.tarsSettings = {"convid": "4OglSq", "href": "https://chatbot.hellotars.com/conv/4OglSq"};
-  </script>
+  <script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '648b8f7dbd5216000706f758' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production'
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
   
 </body>
 </html>
