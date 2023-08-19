@@ -1,6 +1,6 @@
-# dottymatrix.github.io
-The partner up chatbot widget available for testing. 
+# PartnerUp
+The partner up is a prototype chatbot that was explored for the databricks data+AI hackathon. 
 
-We developed this assistant to help emerging sustainable brands find the right marketing partners to boost their social media presence. You will answer a few questions about your company, build a profile of your brand and generate an introduction letter for you to send to your chosen social media marketing agency.
+We developed this assistant to help emerging sustainable brands find the right marketing partners to boost their social media presence. The chat assistant will require users to answer a few questions about their companies, which builds a profile of your brand and helps generate an introduction letter for users to send to thier chosen social media marketing agency.
 
-At the moment, the widget is hosted on my github page. We're planning on making a better experience with more coding skills.
+The idea was approached from a design lens and an interactive prototype made with Voiceflow is available at <a href="https://creator.voiceflow.com/prototype/648b8f7d02065e568f807c9a">PartnerUP</a>
